@@ -1,0 +1,136 @@
+<!ELEMENT luxuria (luxuriastock*,luxuriaclients+)>
+<!ELEMENT luxuriastock (samarretes_menu?,jerseis_menu?,jaquetes_menu?,pantalons_menu?)>
+<!ELEMENT samarretes_menu (samarretes+)>
+<!ELEMENT samarretes (samarretes_curtes*,samarretes_llargues?)>
+<!ELEMENT samarretes_curtes (Be_free? , Berna?, Skyline?)>
+
+<!ELEMENT Be_free (nom,preu,color,descripcio,talles,material,quantitat,sexe)>
+    <!ATTLIST Be_free producteID ID #REQUIRED>
+
+<!ELEMENT Berna (nom,preu,color,descripcio,talles,material,quantitat,sexe)>
+<!ATTLIST Berna producteID ID #REQUIRED>
+
+<!ELEMENT Skyline (nom,preu,color,descripcio,talles,material,quantitat,sexe)>
+<!ATTLIST Skyline producteID ID #REQUIRED>
+
+<!ELEMENT samarretes_llargues (Looong_Shirt?,Terra_Nova?)>
+<!ELEMENT Looong_Shirt (nom,preu,color,descripcio,talles,material,quantitat,sexe)>
+<!ATTLIST Looong_Shirt producteID ID #REQUIRED>
+
+<!ELEMENT Terra_Nova (nom,preu,color,descripcio,talles,material,quantitat,sexe)>
+<!ATTLIST Terra_Nova producteID ID #REQUIRED>
+
+<!ELEMENT jerseis_menu (jerseis)>
+<!ELEMENT jerseis (Garfield?,Doraemon?)>
+<!ELEMENT Garfield (nom,preu,color,descripcio,talles,material,quantitat,sexe)>
+<!ATTLIST Garfield producteID ID #REQUIRED>
+
+<!ELEMENT Doraemon (nom,preu,color,descripcio,talles,material,quantitat,sexe)>
+<!ATTLIST Doraemon producteID ID #REQUIRED>
+
+<!ELEMENT jaquetes_menu (jaquetes)>
+<!ELEMENT jaquetes (jaquetes_de_entretemps?,jaquetes_hivern?,jaquetes_de_neu?)>
+
+<!ELEMENT jaquetes_de_entretemps (Diesel?,Rain?)>
+<!ELEMENT Diesel (nom,preu,color,descripcio,talles,material,quantitat,sexe)>
+<!ATTLIST Diesel producte ID #REQUIRED>
+
+<!ELEMENT Rain (nom,preu,color,descripcio,talles,material,quantitat,sexe)>
+<!ATTLIST Rain producteID ID #REQUIRED>
+
+<!ELEMENT jaquetes_hivern (December?)>
+<!ELEMENT December (nom,preu,color,descripcio,talles,material,quantitat,sexe)>
+<!ATTLIST December producteID ID #REQUIRED>
+
+<!ELEMENT jaquetes_de_neu (Snow?)>
+<!ELEMENT Snow (nom,preu,color,descripcio,talles,material,quantitat,sexe)>
+<!ATTLIST Snow producteID ID #REQUIRED>
+
+<!ELEMENT pantalons_menu (pantalons)>
+<!ELEMENT pantalons (pantalons_curts?,pantalons_llargs?)>
+<!ELEMENT pantalons_curts (Beach?,Travel?)>
+
+<!ELEMENT Beach (nom,preu,color,descripcio,talles,material,quantitat,sexe)>
+<!ATTLIST Beach producteID ID #REQUIRED>
+
+<!ELEMENT Travel (nom,preu,color,descripcio,talles,material,quantitat,sexe)>
+<!ATTLIST Travel producteID ID #REQUIRED>
+
+<!ELEMENT pantalons_llargs (Jeans1?,Jeans2?)>
+<!ELEMENT Jeans1 (nom,preu,color,descripcio,talles,material,quantitat,sexe)>
+<!ATTLIST Jeans1 producteID ID #REQUIRED>
+
+<!ELEMENT Jeans2 (nom,preu,color,descripcio,talles,material,quantitat,sexe)>
+<!ATTLIST Jeans2 producteID ID #REQUIRED>
+
+<!ELEMENT luxuriaclients (registre_clients)>
+<!ELEMENT registre_clients (clients)>
+<!ELEMENT clients (client1,client2,client3,client4,client5)>
+
+<!ELEMENT client1 (nom,email,adreça,compra)>
+<!ATTLIST client1 id ID #REQUIRED>
+<!ELEMENT compra (compra1,compra2)>
+<!ATTLIST compra1 productID CDATA #REQUIRED>
+<!ATTLIST compra1 date CDATA #REQUIRED>
+<!ELEMENT compra1 (#PCDATA)>
+
+<!ELEMENT client2 (nom,email,adreça,compras)>
+<!ATTLIST client2 id ID #REQUIRED>
+<!ELEMENT compras (compra1,compra2,compra3,compra4)>
+<!ATTLIST compra2 productID CDATA #REQUIRED>
+<!ATTLIST compra2 date CDATA #REQUIRED>
+<!ELEMENT compra2 (#PCDATA)>
+<!ATTLIST compra3 productID CDATA #REQUIRED>
+<!ATTLIST compra3 date CDATA #REQUIRED>
+<!ELEMENT compra3 (#PCDATA)>
+<!ATTLIST compra4 productID CDATA #REQUIRED>
+<!ATTLIST compra4 date CDATA #REQUIRED>
+<!ELEMENT compra4 (#PCDATA)>
+
+<!ELEMENT client3 (nom,email,adreça,compras1)>
+<!ATTLIST client3 id ID #REQUIRED>
+<!ELEMENT compras1 (compra1,compra2,compra3,compra4)>
+
+<!ELEMENT client4 (nom,email,adreça,compras4)>
+<!ATTLIST client4 id ID #REQUIRED>
+<!ELEMENT compras4 (compra1,compra2,compra3,compra4)>
+
+<!ELEMENT client5 (nom,email,adreça,compras5)>
+<!ATTLIST client5 id ID #REQUIRED>
+<!ELEMENT compras5 (compra1,compra2,compra3,compra4)>
+
+
+
+
+
+
+
+<!ELEMENT adreça (calle,ciutat,postal)>
+<!ELEMENT calle (#PCDATA)>
+<!ELEMENT ciutat (#PCDATA)>
+<!ELEMENT postal (#PCDATA)>
+<!ELEMENT nom (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT preu (#PCDATA)>
+<!ATTLIST preu moneda CDATA #REQUIRED>
+<!ELEMENT color (#PCDATA)>
+<!ELEMENT descripcio (#PCDATA)>
+<!ELEMENT talles (#PCDATA)>
+<!ATTLIST talles talla_pais CDATA #REQUIRED>
+<!ELEMENT material (#PCDATA)>
+<!ELEMENT quantitat (#PCDATA)>
+<!ELEMENT sexe (#PCDATA)>
+
+
+
+<!--<!ELEMENT nom (#PCDATA)>
+<!ELEMENT cognom (#PCDATA)>
+<!ELEMENT tlf (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT adreca (carrer, num, cp)>
+<!ELEMENT carrer (#PCDATA)>
+<!ELEMENT num (#PCDATA)>
+<!ELEMENT cp (#PCDATA)>
+<!ATTLIST tlf pais CDATA  #REQUIRED>
+-->
+ 
