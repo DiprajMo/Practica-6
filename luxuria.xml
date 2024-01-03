@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?> <!-- Estructura XML per a l'estoc del negoci i gestió dels clients del negoci -->
+<!DOCTYPE luxuria SYSTEM "file.dtd">
+<luxuria> <!-- L'empresa--> 
+    <luxuriastock> <!--stock de la tenda-->
+        <samarretes_menu> <!--menu de les samarretes-->
+            <samarretes>
+                 <!--apartat de samarretes-->
+                <samarretes_curtes> <!--tipus de samarreta-->
+                    <Be_free producteID="BF100"> <!--nom de la samarreta curta-->
+                        <nom> Be free </nom> <!--nom-->
+                        <preu moneda="dòlar"> $29.99 </preu> <!--preu-->
+                        <color> Blanc, negre, blau </color> <!--color-->
+                        <descripcio> Aquesta samarreta té un ocell volant, senzill però elegant. Colors clars </descripcio> <!--descripció del producte-->
+                    <talles talla_pais="EU"> XS, S, M, L, XL, XXL, XXXL </talles> <!--talla-->
+                        <material>80% cotó, 20% poliester </material> <!--material--> 
+                        <quantitat> 50 per talla </quantitat> <!--quantitat de producets disponibles-->
+                        <sexe> Unisex </sexe> <!--vestimenta dedicada per homes i dones-->
+                    </Be_free>
+                    <Berna producteID="BA200"> <!--nom de la samarreta curta-->
+                        <nom> Berna </nom> <!--nom-->
+                        <preu moneda="dòlar"> $29.99 </preu> <!--preu-->
+                        <color> Verd, blau, gris, blanc, marró </color> <!--color-->
+                        <descripcio> representa la ciutat de Berena amb colors verd bosc, colors càlids</descripcio> <!--descripció del producte-->
+                        <talles talla_pais="EU"> XS, S, M, L, XL, XXL, XXXL </talles> <!--talla-->
+                        <material> 90% cotó, 10% polièster </material> <!--material-->
+                        <quantitat> 50 per talla </quantitat> <!--quantitat de producets disponibles-->
+                        <sexe> Unisex </sexe> <!--vestimenta dedicada per homes i dones-->
+                    </Berna>
+                    <Skyline producteID="SL300"> <!--nom de la samarreta curta-->
+                        <nom> Skyline </nom> <!--nom-->
+                        <preu moneda="dòlar"> $29.99 </preu> <!--preu-->
+                        <color> Blau, negre, gris, verd, groc, blanc</color> <!--color-->
+                        <descripcio> Samarreta dels gratacels de Nova York, amb un ocell sobrevolant l'illa. </descripcio> <!--descripció del producte-->
+                        <talles talla_pais="EU"> XS, S, M, L, XL, XXL, XXXL </talles> <!--talla-->
+                        <material> 50% cotó, 50% polièster </material> <!--material-->
+                        <quantitat> 50 per talla </quantitat> <!--quantitat de producets disponibles-->
+                        <sexe> Unisex </sexe> <!--vestimenta dedicada per homes i dones-->
+                    </Skyline>
+                </samarretes_curtes>
+                <samarretes_llargues>
+                    <Looong_Shirt producteID="IP400">
+                        <nom> Looong Shirt</nom><!--nom-->
+                        <preu moneda="dòlar"> $35.99 </preu> <!--preu-->
+                        <color> Blanc </color> <!--color-->
+                        <descripcio> Samarreta llarga blanca bàsica, ideal per vestir amb un tacte suau. </descripcio> <!--descripció del producte-->
+                        <talles talla_pais="EU"> XS, S, M, L, XL, XXL, XXXL </talles> <!--talla-->
+                        <material>80% cotó, 20% poliester </material> <!--material-->
+                        <quantitat> 30 per talla </quantitat> <!--quantitat de producets disponibles-->
+                        <sexe> Unisex </sexe> <!--vestimenta dedicada per homes i dones-->
+                    </Looong_Shirt> 
+                    <Terra_Nova producteID="TN500">
+                        <nom> Terra Nova</nom><!--nom-->
+                        <preu moneda="dòlar"> $35.99 </preu> <!--preu-->
+                        <color> Negre, gris </color> <!--color-->
+                        <descripcio> Samarreta llarga fosca d'estil urbà ideal per el dia a dia. </descripcio> <!--descripció del producte-->
+                        <talles talla_pais="EU"> S, M, L, XL, XXL, XXXL </talles> <!--talla-->
+                        <material>70% cotó, 30% poliester </material> <!--material-->
+                        <quantitat> 30 per talla </quantitat> <!--quantitat de producets disponibles-->
+                        <sexe> Unisex </sexe> <!--vestimenta dedicada per homes i dones-->
+                    </Terra_Nova> 
+                </samarretes_llargues>
+            </samarretes>
+        </samarretes_menu>
+        <jerseis_menu>
+            <jerseis>
+                <Garfield producteID="G600">
+                    <nom> Garfield</nom><!--nom-->
+                    <preu moneda="dòlar"> $39.99 </preu> <!--preu-->
+                    <color> Taronja, groc, blanc, negre, vermell </color> <!--color-->
+                    <descripcio> Jersei taronja amb un dibuix estampat del icònoc gat "Garfield". </descripcio> <!--descripció del producte-->
+                    <talles talla_pais="EU"> S, M, L, XL, XXL, XXXL </talles> <!--talla-->
+                    <material>85% cotó, 15% poliester </material> <!--material-->
+                    <quantitat> 35 per talla </quantitat> <!--quantitat de producets disponibles-->
+                    <sexe> Unisex </sexe> <!--vestimenta dedicada per homes i dones-->
+                </Garfield> 
+                <Doraemon producteID="D700">
+                    <nom> Doraemon</nom><!--nom-->
+                    <preu moneda="dòlar"> $39.99 </preu> <!--preu-->
+                    <color> Negre, gris </color> <!--color-->
+                    <descripcio> Jersei blau amb el dibuix estampat del Doraemon, amb el text blanc a sota del dibuix: "el gat còsmic"</descripcio> <!--descripció del producte-->
+                    <talles talla_pais="EU"> S, M, L, XL, XXL, XXXL </talles> <!--talla-->
+                    <material>70% cotó, 30% poliester </material> <!--material-->
+                    <quantitat> 35 per talla </quantitat> <!--quantitat de producets disponibles-->
+                    <sexe> Unisex </sexe> <!--vestimenta dedicada per homes i dones-->
+                </Doraemon>
+            </jerseis>
+        </jerseis_menu>
+        <jaquetes_menu>
+            <jaquetes>
+                <jaquetes_de_entretemps> 
+                    <Diesel producte="D800">
+                        <nom> Diesel</nom><!--nom-->
+                        <preu moneda="dòlar"> $59.99 </preu> <!--preu-->
+                        <color> Negre, marró, gris, blau </color> <!--color-->
+                        <descripcio> Jaqueta fina inspirada en un estil americà, de motorista popular dels anys 80's. </descripcio> <!--descripció del producte-->
+                        <talles talla_pais="EU"> M, L, XL, XXL, XXXL </talles> <!--talla-->
+                        <material>70% pell, 30% cuir </material> <!--material-->
+                        <quantitat> 25 per talla </quantitat> <!--quantitat de producets disponibles-->
+                        <sexe> home </sexe> <!--vestimenta dedicada per homes-->
+                    </Diesel>
+                    <Rain producteID="R900">
+                        <nom> Rain</nom><!--nom-->
+                        <preu moneda="dòlar"> $59.99 </preu> <!--preu-->
+                        <color> Blanc, marró, gris, negre, blau, verd </color> <!--color-->
+                        <descripcio> Jaqueta fina que amb els seus colors difuminats representa amb una silueta un paissatge muntanyós. </descripcio> <!--descripció del producte-->
+                        <talles talla_pais="EU"> M, L, XL, XXL, XXXL </talles> <!--talla-->
+                        <material>70% pell, 30% cuir </material> <!--material-->
+                        <quantitat> 25 per talla </quantitat> <!--quantitat de producets disponibles-->
+                        <sexe> dona </sexe> <!--vestimenta dedicada per dones-->
+                    </Rain>
+                </jaquetes_de_entretemps>
+                <jaquetes_hivern> 
+                    <December producteID="D1000">
+                        <nom> December</nom><!--nom-->
+                        <preu moneda="dòlar"> $79.99 </preu> <!--preu-->
+                        <color> Blanc, gris negre</color> <!--color-->
+                        <descripcio> Jaqueta gruixuda i gran amb un estil senzill de 3 capes de colors (blanc, gris, negre) </descripcio> <!--descripció del producte-->
+                        <talles talla_pais="EU"> M, L, XL, XXL, XXXL </talles> <!--talla-->
+                        <material>70% pell, 30% cotó </material> <!--material-->
+                        <quantitat> 20 per talla </quantitat> <!--quantitat de producets disponibles-->
+                        <sexe> home </sexe> <!--vestimenta dedicada per homes-->
+                    </December>
+                </jaquetes_hivern>
+                <jaquetes_de_neu> 
+                    <Snow producteID="S1100">
+                        <nom> Snow </nom><!--nom-->
+                        <preu moneda="dòlar"> $89.99 </preu> <!--preu-->
+                        <color> Blau, negre i gris </color> <!--color-->
+                        <descripcio> Jaqueta gruixuda i dissenyada per resistir baixes temperatures amb un estil blau, negre i gris clar. </descripcio> <!--descripció del producte-->
+                        <talles talla_pais="EU"> M, L, XL, XXL, XXXL </talles> <!--talla-->
+                        <material>70% pell, 30% poliester </material> <!--material-->
+                        <quantitat> 20 per talla </quantitat> <!--quantitat de producets disponibles-->
+                        <sexe> Unisex </sexe> <!--vestimenta dedicada per homes i dones-->
+                    </Snow>
+                </jaquetes_de_neu>
+            </jaquetes>
+        </jaquetes_menu>
+        <pantalons_menu>
+            <pantalons>
+                <pantalons_curts> 
+                    <Beach producteID ="B1200">
+                        <nom> Beach</nom><!--nom-->
+                        <preu moneda="dòlar"> $19.99 </preu> <!--preu-->
+                        <color> Taronja i groc</color> <!--color-->
+                        <descripcio> Pantalons curts amb un taronja i groc difuminat </descripcio> <!--descripció del producte-->
+                        <talles talla_pais="EU"> M, L, XL, XXL, XXXL </talles> <!--talla-->
+                        <material> 70% cotó, 30% poliester </material> <!--material-->
+                        <quantitat> 40 per talla </quantitat> <!--quantitat de producets disponibles-->
+                        <sexe> Home </sexe> <!--vestimenta dedicada per homes-->
+                    </Beach>
+                    <Travel producteID="T1300">
+                        <nom> Travel</nom><!--nom-->
+                        <preu moneda="dòlar"> $19.99 </preu> <!--preu-->
+                        <color> Lila i blau</color> <!--color-->
+                        <descripcio> Pantalons curts amb un lila i blau difuminat </descripcio> <!--descripció del producte-->
+                        <talles talla_pais="EU"> M, L, XL, XXL, XXXL </talles> <!--talla-->
+                        <material> 70% cotó, 30% poliester </material> <!--material-->
+                        <quantitat> 40 per talla </quantitat> <!--quantitat de producets disponibles-->
+                        <sexe> Dona </sexe> <!--vestimenta dedicada per dones-->
+                    </Travel>
+                </pantalons_curts>
+                <pantalons_llargs> 
+                    <Jeans1 producteID="J1400">
+                        <nom> Jeans1</nom><!--nom-->
+                        <preu moneda="dòlar"> $39.99 </preu> <!--preu-->
+                        <color> Blau fosc </color> <!--color-->
+                        <descripcio> Pantalons texans clàssic ade color blau fosc </descripcio> <!--descripció del producte-->
+                        <talles talla_pais="EU"> M, L, XL, XXL, XXXL </talles> <!--talla-->
+                        <material>60% cotó, 40% poliester </material> <!--material-->
+                        <quantitat> 30 per talla </quantitat> <!--quantitat de producets disponibles-->
+                        <sexe> Unisex </sexe> <!--vestimenta dedicada per homes i dones-->
+                    </Jeans1>
+                    <Jeans2 producteID="J1500">
+                        <nom> Jeans2</nom><!--nom-->
+                        <preu moneda="dòlar"> $39.99 </preu> <!--preu-->
+                        <color> Blau clar</color> <!--color-->
+                        <descripcio> Pantalons texans clàssic ade color blau clar </descripcio> <!--descripció del producte-->
+                        <talles talla_pais="EU"> M, L, XL, XXL, XXXL </talles> <!--talla-->
+                        <material>60% cotó, 40% poliester </material> <!--material-->
+                        <quantitat> 30 per talla </quantitat> <!--quantitat de producets disponibles-->
+                        <sexe> Unisex </sexe> <!--vestimenta dedicada per homes i dones-->
+                    </Jeans2>
+                </pantalons_llargs>
+            </pantalons>
+        </pantalons_menu>
+    </luxuriastock>
+
+    <luxuriaclients>  <!-- gestió dels clients del negoci -->
+        <registre_clients>
+            <clients>
+                <client1 id="C001"> <!-- Client 1 -->
+                    <nom>Anna Smith</nom> <!--nom-->
+                    <email>annasth@gmail.com</email> <!--email-->
+                    <adreça> <!--adreça-->
+                        <calle>Fransesc Fàbrega, 23</calle> <!--carrer-->
+                        <ciutat>Barcelona</ciutat> <!--ciutat-->
+                        <postal>08001</postal> <!--codi postal-->
+                    </adreça>
+                    <compra> <!-- Productes comprats pel Client 1 -->
+                        <compra1 productID="BF100" date="2023-12-01"/> <!-- id del producte data de la compra-->
+                        <compra2 productID="BA200" date="2023-12-01"/> <!-- id del producte data de la compra-->
+                    </compra>
+                </client1>
+                <client2 id="C002"> <!-- Client 2 -->
+                    <nom>Andreu Valls</nom> <!--nom-->
+                    <email>andreuvalls200@yahoo.es</email> <!--email-->
+                    <adreça> <!--adreça-->
+                        <calle> Muntaner, 153 </calle> <!--carrer-->
+                        <ciutat>Barcelona</ciutat> <!--ciutat-->
+                        <postal>08021</postal> <!--codi postal-->
+                    </adreça>
+                    <compras> <!-- Productes comprats pel Client 2 -->
+                        <compra1 productID="SL300" date="2023-11-06"/> <!-- id del producte data de la compra-->
+                        <compra2 productID="LS400" date="2023-11-06"/> <!-- id del producte data de la compra-->
+                        <compra3 productID="B1200" date="2023-11-06"/> <!-- id del producte data de la compra-->
+                        <compra4 productID="T1300" date="2023-11-06"/> <!-- id del producte data de la compra-->
+                    </compras>
+                </client2>
+                <client3 id="C003"> <!-- Client 3 -->
+                    <nom>Julia Saavedra</nom> <!--nom-->
+                    <email>jsaavedra@hotmail.com</email> <!--email-->
+                    <adreça> <!--adreça-->
+                        <calle> Passeig de Sant Joan, 13 </calle> <!--carrer-->
+                        <ciutat>Barcelona</ciutat> <!--ciutat-->
+                        <postal>08021</postal> <!--codi postal-->
+                    </adreça>
+                    <compras1> <!-- Productes comprats pel Client 3 -->
+                        <compra1 productID="SL300" date="2023-10-23"/> <!-- id del producte data de la compra-->
+                        <compra2 productID="LS400" date="2023-10-23"/> <!-- id del producte data de la compra-->
+                        <compra3 productID="S1100" date="2023-10-23"/> <!-- id del producte data de la compra-->
+                        <compra4 productID="J1400" date="2023-10-23"/> <!-- id del producte data de la compra-->
+                    </compras1>
+                </client3>
+                <client4 id="C004"> <!-- Client 4 -->
+                    <nom>Mateu Llavaneres</nom> <!--nom-->
+                    <email>mateuh456@gmail.com</email> <!--email-->
+                    <adreça> <!--adreça-->
+                        <calle> Aribau, 214</calle> <!--carrer-->
+                        <ciutat>Barcelona</ciutat> <!--ciutat-->
+                        <postal>08017</postal> <!--codi postal-->
+                    </adreça>
+                    <compras4> <!-- Productes comprats pel Client 4 -->
+                        <compra1 productID="TN500" date="2023-11-16"/> <!-- id del producte data de la compra-->
+                        <compra2 productID="G600" date="2023-11-16"/> <!-- id del producte data de la compra-->
+                        <compra3 productID="D1000" date="2023-11-16"/> <!-- id del producte data de la compra-->
+                        <compra4 productID="J1500" date="2023-11-16"/> <!-- id del producte data de la compra-->
+                    </compras4>
+                </client4>
+                <client5 id="C005"> <!-- Client 5 -->
+                    <nom> Josep Joan</nom> <!--nom-->
+                    <email>jjoan565@yahoo.es</email> <!--email-->
+                    <adreça> <!--adreça-->
+                        <calle>Metge Ferrán, 146 </calle> <!--carrer-->
+                        <ciutat>Barcelona</ciutat> <!--ciutat-->
+                        <postal>08006</postal> <!--codi postal-->
+                    </adreça>
+                    <compras5> <!-- Productes comprats pel Client 5 -->
+                        <compra1 productID="D800" date="2023-11-04"/> <!-- id del producte data de la compra-->
+                        <compra2 productID="R900" date="2023-11-04"/> <!-- id del producte data de la compra-->
+                        <compra3 productID="G600" date="2023-11-04"/> <!-- id del producte data de la compra-->
+                        <compra4 productID="LS400" date="2023-11-04"/> <!-- id del producte data de la compra-->
+                    </compras5>
+                </client5>
+            </clients>
+        </registre_clients>
+    </luxuriaclients>
+</luxuria>
